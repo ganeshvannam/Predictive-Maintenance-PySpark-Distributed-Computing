@@ -48,16 +48,6 @@ Based on the results, Random Forest and XGBoost models are highly recommended du
 This project demonstrates the power of distributed computing using virtual machines and PySpark for predictive maintenance. Random Forest and XGBoost were found to be the most effective models for proactive maintenance strategies. Future work could include testing additional algorithms, further hyperparameter tuning, or implementing real-time data analysis for continuous monitoring.
 
 
-Yes, including dependencies in the README file is a good practice. This ensures that anyone visiting your repository can quickly identify what they need to install to run your code successfully. Typically, a README file provides an overview of the project, setup instructions, dependencies, and usage guidelines, making it easy for other developers to understand and reproduce your work.
-
-Here’s an example of how to format the dependencies section in your README:
-
----
-
-# Leveraging Distributed Computing for Predictive Maintenance: A PySpark Approach to Industrial Equipment Monitoring
-
-## Project Overview
-This project utilizes PySpark for distributed data processing and predictive modeling on the AI4I 2020 Predictive Maintenance dataset. It aims to predict potential machinery failures, classify failure types, and analyze model interpretability and performance.
 
 ## Dependencies
 
@@ -95,6 +85,6 @@ To run this project, you’ll need the following dependencies installed:
 
 Make sure to install each dependency using the commands provided above.
 
----
-
-Including this section in the README will help collaborators and users set up the environment quickly and ensure they have everything needed to replicate your results.
+Additional Notes
+Virtual Machine Setup: This project was run on virtual machines to leverage distributed computing benefits. You may need to set up multiple VMs for optimal performance.
+Configuration: Ensure that the virtual environment or container has the above libraries installed, and PySpark is configured correctly to communicate across VMs if used.
