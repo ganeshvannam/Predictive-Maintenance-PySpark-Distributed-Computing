@@ -46,3 +46,55 @@ Based on the results, Random Forest and XGBoost models are highly recommended du
 
 ## Conclusion
 This project demonstrates the power of distributed computing using virtual machines and PySpark for predictive maintenance. Random Forest and XGBoost were found to be the most effective models for proactive maintenance strategies. Future work could include testing additional algorithms, further hyperparameter tuning, or implementing real-time data analysis for continuous monitoring.
+
+
+Yes, including dependencies in the README file is a good practice. This ensures that anyone visiting your repository can quickly identify what they need to install to run your code successfully. Typically, a README file provides an overview of the project, setup instructions, dependencies, and usage guidelines, making it easy for other developers to understand and reproduce your work.
+
+Here’s an example of how to format the dependencies section in your README:
+
+---
+
+# Leveraging Distributed Computing for Predictive Maintenance: A PySpark Approach to Industrial Equipment Monitoring
+
+## Project Overview
+This project utilizes PySpark for distributed data processing and predictive modeling on the AI4I 2020 Predictive Maintenance dataset. It aims to predict potential machinery failures, classify failure types, and analyze model interpretability and performance.
+
+## Dependencies
+
+To run this project, you’ll need the following dependencies installed:
+
+- **Python 3.x**: Required for running PySpark, TensorFlow, and other libraries.
+- **PySpark**: For distributed data processing and machine learning.
+    ```bash
+    pip install pyspark
+    ```
+- **TensorFlow**: For building and training the deep neural network model.
+    ```bash
+    pip install tensorflow
+    ```
+- **XGBoost**: For training the XGBoost model.
+    ```bash
+    pip install xgboost
+    ```
+- **Scikit-Learn**: For data splitting and performance metrics.
+    ```bash
+    pip install scikit-learn
+    ```
+- **Pandas**: For data manipulation.
+    ```bash
+    pip install pandas
+    ```
+- **NumPy**: For numerical operations.
+    ```bash
+    pip install numpy
+    ```
+- **Matplotlib and Seaborn**: For data visualization.
+    ```bash
+    pip install matplotlib seaborn
+    ```
+
+Make sure to install each dependency using the commands provided above.
+
+---
+
+Including this section in the README will help collaborators and users set up the environment quickly and ensure they have everything needed to replicate your results.
