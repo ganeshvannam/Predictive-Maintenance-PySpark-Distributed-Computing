@@ -85,6 +85,8 @@ To run this project, you’ll need the following dependencies installed:
 
 Make sure to install each dependency using the commands provided above.
 
-Additional Notes
+### Additional Notes
+
 Virtual Machine Setup: This project was run on virtual machines to leverage distributed computing benefits. You may need to set up multiple VMs for optimal performance.
+
 Configuration: Ensure that the virtual environment or container has the above libraries installed, and PySpark is configured correctly to communicate across VMs if used.
